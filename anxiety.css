@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Spectral', serif;
+    font-size: 20px;
+}
+body{
+    /* background-image: linear-gradient(#3d677f,#1c3a59,#0e283e); */
+    background-image: url(icons/anxietybg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: whitesmoke;
+    margin: 20px;
+}
+.test_des, .test
+{
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: justify;
+    line-height: 30px;
+    
+    
+}
+.test_des h1{
+    text-align: center;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+.test h2{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+
+
+
+button{
+    background-color: rgb(8, 44, 73);
+    color: white;
+    border-radius: 40px;
+    border: none;
+    padding: 15px;
+    font-size: large;
+    transition: 900ms;
+    margin-bottom: 50px;
+
+}
+button:hover{
+    color:rgb(8, 44, 73) ;
+    background-color: rgb(231, 227, 227);
+    font-weight: bold;
+
+}
+ p{
+    font-size: 20px;
+    
+}
+h1,h2
+{
+    font-size: 35px;
+}
+.last p{
+    margin-bottom: 15px;
+}
+.last{
+    display: inline-block;
+    align-items: middle;
+}

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Spectral', serif;
+    font-size: 20px;
+}
+body{
+    /* background-image:linear-gradient(#8d0c0c, #b31e1e, #e63737, #ff6666, #ff9999); */
+    background:url(icons/ink.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    background-color: #e3f2fd;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: Lucida Console;
+    margin-top: 30px;
+    font-size: 50px;
+    
+
+}
+.description{
+    padding: 40px;
+    padding-bottom: 0px;
+    text-align: justify;
+    font-size: large;
+    font-family: Lucida Handwriting;
+    color: azure;
+    line-height: 30px;
+    transition: 900ms;
+    
+
+}
+
+H1:hover{
+    font-weight: bolder;
+    color: rgb(250, 181, 176);
+
+}
+.description:hover{
+    font-weight: bolder;
+    color: rgb(245, 167, 167);
+}
+.line
+{
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    padding: 40px;
+    font-family: Lucida Handwriting;
+    padding-top: 10px;
+    transition: 900ms;
+    
+}
+.line p{
+    margin-bottom: 10px;
+}
+.line:hover{
+    color: rgb(191, 131, 83);
+    font-weight: bolder;
+
+}
+
+button{
+    background-color: rgb(146, 21, 21);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    font-size: larger;
+    border-radius: 20px;
+    transition: 900ms;
+    border: none;
+
+}
+button:hover{
+    color:rgb(146, 21, 21);
+    background-color:white;
+}
+
+
+
+
+
+
+
+
+        

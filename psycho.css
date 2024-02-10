@@ -1,0 +1,71 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    text-align: justify;
+    font-size: 30px;
+    
+}
+body{
+    background: url(icons/PSYCHObg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 20px;
+    font-size: 20px;
+    
+}
+.psycho_test
+{
+    
+    padding: 50px;
+}
+.des{
+    background-color: rgba(13, 23, 33,0.9);
+    padding: 35px;
+    margin: 20px;
+    
+}
+.des p,ol,ul,li
+{
+    padding: 5px;
+}
+h1,h2
+{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.des p
+{
+    margin-bottom: 15px;
+}
+.des ol
+{
+    margin-bottom: 15px;
+    margin-left: 25px;
+}
+button{
+    background-color:rgba(13, 23, 33,0.9) ;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    transition: 900ms;
+}
+button:hover{
+    background-color: white;
+    color: rgba(13, 23, 33,0.9);
+}
+.last
+{
+    transition: 900ms;
+
+}
+.last:hover{
+    color: rgb(235, 235, 104);
+    text-decoration: double;
+}

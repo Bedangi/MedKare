@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table Example</title>
+  <style>
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 2px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    td:hover{
+      background-color: yellow ;
+      color: black
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    input[type="checkbox"] {
+      margin-right: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <tr>
+      <th>Sr.No.</th>
+      <th>Statements</th>
+      <th>Yes</th>
+      <th>No</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Do you feel that you are punished without any crime?
+      </td>
+      <td><input type="radio" name="s1" value="yes"></td>
+      <td><input type="radio" name="s1" value="no"></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Do you lose the balance of your mind even under ordinary pressure of circumstances?</td>
+      <td><input type="radio" name="s2" value="yes"></td>
+      <td><input type="radio" name="s2" value="no"></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td> Do you generally have unsteady mind?
+      </td>
+      <td><input type="radio" name="s3" value="yes"></td>
+      <td><input type="radio" name="s3" value="no"></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Do you generally stutter while talking to strangers?
+      </td>
+      <td><input type="radio" name="s4" value="yes"></td>
+      <td><input type="radio" name="s4" value="no"></td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Do you sometimes feel that your life is useless?
+      </td>
+      <td><input type="radio" name="s5" value="yes"></td>
+      <td><input type="radio" name="s5" value="no"></td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Do you weep very easily ?
+      </td>
+      <td><input type="radio" name="s6" value="yes"></td>
+      <td><input type="radio" name="s6" value="no"></td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Do you generally have the conflict of sin and righteousness in your mind?
+      </td>
+      <td><input type="radio" name="s7" value="yes"></td>
+      <td><input type="radio" name="s7" value="no"></td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Do you get very much excited of the just rememberance of the bitter experiences of your life?</td>
+      <td><input type="radio" name="s8" value="yes"></td>
+      <td><input type="radio" name="s8" value="no"></td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td> Do you generally feel that you would lose your presence of mind?
+      </td>
+      <td><input type="radio" name="s9" value="yes"></td>
+      <td><input type="radio" name="s9" value="no"></td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Do you feel so scared that your tongue gets dried up?
+
+      </td>
+      <td><input type="radio" name="s10" value="yes"></td>
+      <td><input type="radio" name="s10" value="no"></td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>Do you think yourself to be the sinner without any reason?
+      </td>
+      <td><input type="radio" name="s11" value="yes"></td>
+      <td><input type="radio" name="s11" value="no"></td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td> Do you constantly have the strain in your nervous system?
+      </td>
+      <td><input type="radio" name="s12" value="yes"></td>
+      <td><input type="radio" name="s12" value="no"></td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Do you occasionally have fear while going out that you may miss your train?
+      </td>
+      <td><input type="radio" name="s13" value="yes"></td>
+      <td><input type="radio" name="s13" value="no"></td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>Do you feel the lack of sleep?
+      </td>
+      <td><input type="radio" name="s14" value="yes"></td>
+      <td><input type="radio" name="s14" value="no"></td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>Do you always get yourself busy in some work or other just to forget your problems?
+        
+        </td>
+      <td><input type="radio" name="s15" value="yes"></td>
+      <td><input type="radio" name="s15" value="no"></td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>Do you want to run away to some distant place having got tired of your problems?
+      </td>
+      <td><input type="radio" name="s16" value="yes"></td>
+      <td><input type="radio" name="s16" value="no"></td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>Do you generally commit such erors which are difficult to correct?
+      </td>
+      <td><input type="radio" name="s17" value="yes"></td>
+      <td><input type="radio" name="s17" value="no"></td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>Do you think that you have committed certain error because of which you are very restless?
+
+      </td>
+      <td><input type="radio" name="s18" value="yes"></td>
+      <td><input type="radio" name="s18" value="no"></td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>Are you afraid of going to high places?
+      </td>
+      <td><input type="radio" name="s19" value="yes"></td>
+      <td><input type="radio" name="s19" value="no"></td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>Do you generally feel physical weakness?
+      </td>
+      <td><input type="radio" name="s20" value="yes"></td>
+      <td><input type="radio" name="s20" value="no"></td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>Do you generally think that life will remain sad?
+      </td>
+      <td><input type="radio" name="s21" value="yes"></td>
+      <td><input type="radio" name="s21" value="no"></td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>Do you shed tears at the time of your troubles by the little sympathy of others?
+
+      </td>
+      <td><input type="radio" name="s22" value="yes"></td>
+      <td><input type="radio" name="s22" value="no"></td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>Do you generally feel that you are hopeless?
+
+      </td>
+      <td><input type="radio" name="s23" value="yes"></td>
+      <td><input type="radio" name="s23" value="no"></td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>Do you generally get lost in yourself?
+
+      </td>
+      <td><input type="radio" name="s24" value="yes"></td>
+      <td><input type="radio" name="s24" value="no"></td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>Do you generally work under the condition of strain?
+
+      </td>
+      <td><input type="radio" name="s25" value="yes"></td>
+      <td><input type="radio" name="s25" value="no"></td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>Do you generally remain in anxiety?
+      </td>
+      <td><input type="radio" name="s26" value="yes"></td>
+      <td><input type="radio" name="s26" value="no"></td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td>Do you generally have mental tensions?
+      </td>
+      <td><input type="radio" name="s27" value="yes"></td>
+      <td><input type="radio" name="s27" value="no"></td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>Do you generally feel suffocation because of fear?
+      </td>
+      <td><input type="radio" name="s28" value="yes"></td>
+      <td><input type="radio" name="s28" value="no"></td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td> Do you become very sad by the contradiction of your own statement?
+      </td>
+      <td><input type="radio" name="s29" value="yes"></td>
+      <td><input type="radio" name="s29" value="no"></td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>Do you think that your life is dark?</td>
+      <td><input type="radio" name="s30" value="yes"></td>
+      <td><input type="radio" name="s30" value="no"></td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td> Do you have the fear of being unsuccessful even after thorough preparations ?</td>
+      <td><input type="radio" name="s31" value="yes"></td>
+      <td><input type="radio" name="s31" value="no"></td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td> Do you generally feel so that you are going to lose everything?
+      </td>
+      <td><input type="radio" name="s32" value="yes"></td>
+      <td><input type="radio" name="s32" value="no"></td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td>Do you get very much confused under such conditions in which you have earlier encountered great loss?
+      </td>
+      <td><input type="radio" name="s33" value="yes"></td>
+      <td><input type="radio" name="s33" value="no"></td>
+    </tr>
+    <tr>
+      <td>34</td>
+      <td>Do you think that life is full of despair?
+      </td>
+      <td><input type="radio" name="s34" value="yes"></td>
+      <td><input type="radio" name="s34" value="no"></td>
+    </tr>
+    <tr>
+      <td>35</td>
+      <td> Do you get very much confumed when you see some body in fainting or sense- lessness ?
+      </td>
+      <td><input type="radio" name="s35" value="yes"></td>
+      <td><input type="radio" name="s35" value="no"></td>
+    </tr>
+    <td>36</td>
+      <td>Are you generally restless because of some troubles ?
+      </td>
+      <td><input type="radio" name="s36" value="yes"></td>
+      <td><input type="radio" name="s36" value="no"></td>
+    </tr>
+    <td>37</td>
+      <td> Do you generally think over the past events?
+      </td>
+      <td><input type="radio" name="s37" value="yes"></td>
+      <td><input type="radio" name="s37" value="no"></td>
+    </tr>
+    <td>38</td>
+      <td> Do you become restless by the erroneous presumptions of others about you?</td>
+      <td><input type="radio" name="s38" value="yes"></td>
+      <td><input type="radio" name="s38" value="no"></td>
+    </tr>
+    <td>39</td>
+      <td>Do you feel physical tired?
+      </td>
+      <td><input type="radio" name="s39" value="yes"></td>
+      <td><input type="radio" name="s39" value="no"></td>
+    </tr>
+    <td>40</td>
+      <td>Do you feel that even small things become problems for you ?
+      </td>
+      <td><input type="radio" name="s40" value="yes"></td>
+      <td><input type="radio" name="s40" value="no"></td>
+    </tr>
+    <td>41</td>
+      <td> Do you generally have the fear of being caught by epidemic disease?
+        Are you very often restless even by useless talks ?
+        <td><input type="radio" name="s41" value="yes"></td>
+      <td><input type="radio" name="s41" value="no"></td>
+    </tr>
+    <td>42</td>
+      <td>Do you generally do such works which make you repented very much?
+      </td>
+      <td><input type="radio" name="s42" value="yes"></td>
+      <td><input type="radio" name="s42" value="no"></td>
+    </tr>
+    <td>43</td>
+      <td>Do you become afraid of even by the imagination of falure?
+      </td>
+      <td><input type="radio" name="s43" value="yes"></td>
+      <td><input type="radio" name="s43" value="no"></td>
+    </tr>
+    <td>44</td>
+      <td>Are you very often restless even by useless talks ?
+      </td>
+      <td><input type="radio" name="s44" value="yes"></td>
+      <td><input type="radio" name="s44" value="no"></td>
+    </tr>
+    <td>45</td>
+      <td>Do you generally get disturbed by Imaginary evils?
+      </td>
+      <td><input type="radio" name="s45" value="yes"></td>
+      <td><input type="radio" name="s45" value="no"></td>
+    </tr>
+    <td>46</td>
+      <td>Do you generally have the complaints of constipation 7
+
+      </td>
+      <td><input type="radio" name="s46" value="yes"></td>
+      <td><input type="radio" name="s46" value="no"></td>
+    </tr>
+    <td>47</td>
+      <td> Do you feel that your fortune does not favour you?
+      </td>
+      <td><input type="radio" name="s47" value="yes"></td>
+      <td><input type="radio" name="s47" value="no"></td>
+    </tr>
+    <td>48</td>
+      <td>Do you generally get involved in such matters which may make you to forget yourself?
+
+      </td>
+      <td><input type="radio" name="s48" value="yes"></td>
+      <td><input type="radio" name="s48" value="no"></td>
+    </tr>
+    <td>49</td>
+      <td>Are you unpleasing by nature?</td>
+      <td><input type="radio" name="s49" value="yes"></td>
+      <td><input type="radio" name="s49" value="no"></td>
+    </tr>
+    <td>50</td>
+      <td>Do you generally feel difficulty in meking decisions?
+      </td>
+      <td><input type="radio" name="s50" value="yes"></td>
+      <td><input type="radio" name="s50" value="no"></td>
+    </tr>
+    <td>51</td>
+      <td> Do you get touched even by short time waiting?
+      </td>
+      <td><input type="radio" name="s51" value="yes"></td>
+      <td><input type="radio" name="s51" value="no"></td>
+    </tr>
+    <td>52</td>
+      <td>Do you generally have the tear that your life may not be doomed because of conspiracy of others?
+      </td>
+      <td><input type="radio" name="s52" value="yes"></td>
+      <td><input type="radio" name="s52" value="no"></td>
+    </tr>
+    <td>53</td>
+    <td> Do you generally have the fear of some thing or others?
+
+    </td>
+    <td><input type="radio" name="s53" value="yes"></td>
+    <td><input type="radio" name="s53" value="no"></td>
+  </tr>
+  <td>54</td>
+      <td>Do you think yourself to be more unfortunate than others?
+      </td>
+      <td><input type="radio" name="s54" value="yes"></td>
+      <td><input type="radio" name="s54" value="no"></td>
+    </tr>
+    <td>55</td>
+      <td>Do you feel that others generally misunderstand you ?
+      </td>
+      <td><input type="radio" name="s55" value="yes"></td>
+      <td><input type="radio" name="s55" value="no"></td>
+    </tr>
+    <td>56</td>
+      <td>Do you generally get so mstless that it is difficult for you to sit in one place?
+
+      </td>
+      <td><input type="radio" name="s56" value="yes"></td>
+      <td><input type="radio" name="s56" value="no"></td>
+    </tr>
+    <td>57</td>
+      <td>Do you generally feel yourself inferior because of your own failures?
+
+      </td>
+      <td><input type="radio" name="s57" value="yes"></td>
+      <td><input type="radio" name="s57" value="no"></td>
+    </tr>
+    <td>58</td>
+      <td>Do you generally have the feeling of loss rather than of gains?
+      </td>
+      <td><input type="radio" name="s58" value="yes"></td>
+      <td><input type="radio" name="s58" value="no"></td>
+    </tr>
+    <td>59</td>
+      <td>Do you loss the presence of your mind even by ordinary bad everts?
+
+      </td>
+      <td><input type="radio" name="s59" value="yes"></td>
+      <td><input type="radio" name="s59" value="no"></td>
+    </tr>
+    <td>60</td>
+      <td>Do you have the feeling of excitation during every work?</td>
+      <td><input type="radio" name="s60" value="yes"></td>
+      <td><input type="radio" name="s60" value="no"></td>
+    </tr>
+   
+    
+    
+
+
+
+  </table>
+
+  <script src="anxietyTest.js"></script>
+
+</body>
+</html>
