@@ -6,28 +6,83 @@
         <title>MedKare</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     </head>
     <body>
         <div class="container-fluid">
             <nav class="navbar navbar-expand-lg sticky">
                 <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="logo.png">MedKare</a>
-                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button> -->
+                <a class="navbar-brand" href="#"><img src="icons/logo.png">MedKare</a>
+                <a class="navbar-brand" href="#">Features</a>
+                <a class="navbar-brand" href="#">Contact Us</a>
                 <div class="collapse navbar-collapse end" id="navbarSupportedContent">
-                    <form class="d-flex" role="search">
+                    <!-- <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" id="navbar-end" type="submit">Search</button>
-                    </form>
+                    </form> -->
+                    <button class="btn btn-outline-success navbar-end" id="loginButton" type="submit">Log in</button>
+                    <div class="popup" id="loginPopup">
+                        <div class="popup-content">
+                            <span class="close" onclick="closelogin()">&times;</span>
+                            <span class="loginlogo">
+                                <img src="icons/MedKareLOGO.png">
+                            </span>
+                            <!-- Your login form goes here -->
+                            <span class="loginbox">
+                                <h2>Login</h2>
+                                <form>
+                                    <label class="bottomgap" for="username">Username:</label>
+                                    <input class="bottomgap" type="text" id="username" name="username" required>
+                                    <br>
+                                    <label class="bottomgap" for="password">Password:</label>
+                                    <input class="bottomgap" type="password" id="password" name="password" required>
+                                    <br>
+                                    <button class="login" type="submit">Login</button>
+                                </form>
+                            </span>
+                        </div>
+                    </div>
+                    <button class="btn btn-outline-success navbar-end" id="SignUpButton" type="submit">Sign Up</button>
+                    <div class="popup" id="SignUpPopup">
+                        <div class="popup-content">
+                            <span class="close" onclick="closesignup()">&times;</span>
+                            <span class="loginlogo">
+                                <img src="icons/MedKareLOGO.png">
+                            </span>
+                            <span class="loginbox">
+                                <h2>Sign Up</h2>
+                                <!-- Your login form goes here -->
+                                <form>
+                                    <label class="bottomgap" for="username">Username:</label>
+                                    <input class="bottomgap" type="text" id="username" name="username" required>
+                                    <br>
+                                    <label class="bottomgap" for="password">Password:</label>
+                                    <input class="bottomgap" type="password" id="password" name="password" required>
+                                    <br>
+                                    <button class="login" type="submit">Sign Up</button>
+                                </form>
+                            </span> 
+                        </div>
+                    </div>
                 </div>
                 </div>
             </nav>
             <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example  p-3 rounded-2 trans" tabindex="0" > 
-                <h1 class="tagline">BECAUSE MENTAL HEALTH <br>COMES FIRST...</h1>
+                <div class="heading">
+                    <img class="bounce" src="icons/logo.png" style="display: inline-block;">
+                    <h1 class="tagline" style="display: inline-block;">
+                        <div class="typing-container">
+                            <span id="sentence" class="sentence"></span>
+                            <span class="input-cursor"></span>
+                            <span id="feature-text"></span>
+                        </div>
+                    </h1>
+                </div>
                 <div class="card-container">
                     <div class="card">
-                        <img src="anxiety.png" class="card-img-top" alt="Anxiety Test">
+                        <img src="icons/anxiety.png" class="card-img-top" alt="Anxiety Test">
                         <div class="card-body">
                           <p class="card-title">Anxiety Test</p>
                           <p class="card-text">An anxiety test is a diagnostic tool used to assess an individual's level of anxiety through a series of questions or assessments, helping to identify symptoms and provide insight into potential anxiety disorders.</p>
@@ -35,7 +90,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <img src="psychometric.jpg" class="card-img-top" alt="Psychometric Test">
+                        <img src="icons/psychometric.jpg" class="card-img-top" alt="Psychometric Test">
                         <div class="card-body">
                         <p class="card-title">Psychometric Test</p>
                         <p class="card-text">A psychometric test is a standardized assessment tool used to measure various psychological attributes, such as personality traits, cognitive abilities, or emotional intelligence, through structured questions or tasks.</p>
@@ -43,7 +98,7 @@
                     </div>
                     </div>
                     <div class="card">
-                        <img src="personality.jpg" class="card-img-top" alt="Personality Test">
+                        <img src="icons/personality.jpg" class="card-img-top" alt="Personality Test">
                         <div class="card-body">
                           <p class="card-title">Personality Test</p>
                           <p class="card-text">A personality test is a psychological assessment tool designed to evaluate an individual's traits, behaviors, attitudes, and preferences, often categorized into various dimensions or personality traits, to provide insights into their psychological makeup and behavioral tendencies.</p>
@@ -52,16 +107,61 @@
                     </div>
                 </div>
             </div>
+            <div class="main-features">
+                <div class="fheading">
+                    <h1 class="features">Main Features</h1>
+                    <p class="fpara">Provides accessible and informative tools, fostering self-awareness, 
+                        <br>early intervention, and destigmatization while promoting a 
+                        <br>proactive approach to mental well-being.
+                    </p>
+                </div>
+                <div class="grid-container">
+                    <div class="grid-item1">
+                        <i class="fa-classic fa-solid fa-user-group fa-xl"></i>
+                        <h4>User-Friendly Interface</h3>
+                        <p>Intuitive and easy-to-navigate design.
+                            Clearly labeled sections for different types of tests.</p>
+                    </div>
+                    <div class="grid-item2">
+                        <i class="fa-solid fa-shapes fa-xl"></i>
+                        <h4>Educational Content</h4>
+                        <p>Offers informative articles, blog posts, or videos to help users understand the significance of the tests and their results.</p>
+                    </div>
+                    <div class="grid-item3">
+                        <i class="fa-solid fa-file-shield fa-xl"></i>
+                        <h4>Secure and Confidential</h4>
+                        <p>Assures users of the confidentiality and security of their data.</p>
+                    </div>
+                    <div class="grid-item4">
+                        <i class="fa-solid fa-square-poll-horizontal fa-xl"></i>
+                        <h4>Results Interpretation</h4>
+                        <p>Provides clear and understandable explanations of test results.
+                            Includes disclaimers that online tests are not a substitute for professional diagnosis and encourage users to consult with mental health professionals.</p>
+                    </div>
+                    <div class="grid-item5">
+                        <i class="fa-solid fa-tty fa-2xl"></i>
+                        <h4>Community Support</h4>
+                        <p>Integrates forums and chat features for users to connect, share experiences, and offer support to one another.</p>
+                    </div>
+                    <div class="grid-item6">
+                        <i class="fa-brands fa-bots fa-2xl"></i>
+                        <h4>24/7 Chatbot</h4>
+                        <p>A 24/7 chatbot feature ensures constant accessibility, offering immediate support, information, and guidance, contributing to a continuous and responsive mental health assistance.</p>
+                    </div>
+                </div>
+            </div>
+            
+            
             <footer>
                 <div class="social-icons">
                     <a href="#">
-                        <img src="insta.png" alt="insta account">
+                        <img src="icons/insta.png" alt="insta account">
                     </a>
                     <a href="#">
-                        <img src="twitter.png" alt="insta account">
+                        <img src="icons/twitter.png" alt="insta account">
                     </a>
                     <a href="#">
-                        <img src="fb.png" alt="insta account">
+                        <img src="icons/fb.png" alt="insta account">
                     </a>
                   
                 </div>
@@ -80,6 +180,7 @@
             })(document, window.kommunicate || {});
         /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
         </script>
+        <script src="home.js"></script>
 
     </body>
 </html>
