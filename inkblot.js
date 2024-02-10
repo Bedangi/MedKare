@@ -2,28 +2,28 @@ const imageContainer = document.getElementById('imageContainer');
 const resultButton = document.getElementById('resultButton');
 const nextButton = document.getElementById('nextButton');
 let imageUrls = [
-  'icons/1.png',
-  'icons/2.png',
-  'icons/3.png',
-  'icons/4.png',
-  'icons/5.png',
-  'icons/6.png',
-  'icons/7.png',
-  'icons/8.png',
-  'icons/9.png',
-  'icons/10.png'
+  '1.png',
+  '2.png',
+  '3.png',
+  '4.png',
+  '5.png',
+  '6.png',
+  '7.png',
+  '8.png',
+  '9.png',
+  '10.png'
 ];
 const resultUrls = [
-  'icons/result1.jpg',
-  'icons/result2.jpg',
-  'icons/result3.jpg',
-  'icons/result4.jpg',
-  'icons/result5.jpg',
-  'icons/result6.jpg',
-  'icons/result7.jpg',
-  'icons/result8.jpg',
-  'icons/result9.jpg',
-  'icons/result10.jpg'
+  'result1.jpg',
+  'result2.jpg',
+  'result3.jpg',
+  'result4.jpg',
+  'result5.jpg',
+  'result6.jpg',
+  'result7.jpg',
+  'result8.jpg',
+  'result9.jpg',
+  'result10.jpg'
 ];
 let currentIndex = 0;
 let currentIndex2 = 0;
