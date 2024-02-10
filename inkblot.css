@@ -1,6 +1,6 @@
 body
 {
-    background: url(icons/inkblotTestBG.jpg);
+    background: url(inkblotTestBG.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
