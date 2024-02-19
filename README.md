@@ -1,5 +1,6 @@
 # Medkare
-A. It is a mental health website which includes :/n
+<pre>
+A. It is a mental health website which includes :
       i) Anxiety Test
       ii) Psychometric Test
       iii) Personality Test
@@ -13,4 +14,4 @@ D. It allows two pathways for the user :
           This feature is unlocked only after the user is logged in.
           Comprises of set of 50-60 questions for full analysis of the user's mental state.
           Suggests counsellor to the user in their vicinity. Also provides list of top counsellors.
-        
+</pre>     
