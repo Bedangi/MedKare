@@ -1,4 +1,4 @@
-# Medkare
+# Medkare/n
 A. It is a mental health website which includes :
       i) Anxiety Test
       ii) Psychometric Test
