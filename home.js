@@ -331,3 +331,52 @@ function closesignup() {
     run();
   
 })();
+
+//adding effect on icons when hovered
+const hoverIcon1 = document.getElementById('community_support_icon');
+hoverIcon1.addEventListener('mouseenter', () => {
+  hoverIcon1.classList.add('fa-shake','scale');
+});
+hoverIcon1.addEventListener('mouseleave', () => {
+  hoverIcon1.classList.remove('fa-shake','scale');
+});
+
+const hoverIcon2 = document.getElementById('secure_icon');
+hoverIcon2.addEventListener('mouseenter', () => {
+  hoverIcon2.classList.add('fa-flip','scale');
+});
+hoverIcon2.addEventListener('mouseleave', () => {
+  hoverIcon2.classList.remove('fa-flip','scale');
+});
+
+const hoverIcon3 = document.getElementById('shapes_icon');
+hoverIcon3.addEventListener('mouseenter', () => {
+  hoverIcon3.classList.add('fa-bounce','scale');
+});
+hoverIcon3.addEventListener('mouseleave', () => {
+  hoverIcon3.classList.remove('fa-bounce','scale');
+});
+
+const hoverIcon4 = document.getElementById('chatbot_icon');
+hoverIcon4.addEventListener('mouseenter', () => {
+  hoverIcon4.classList.add('scale');
+});
+hoverIcon4.addEventListener('mouseleave', () => {
+  hoverIcon4.classList.remove('scale');
+});
+
+const hoverIcon5 = document.getElementById('user_icon');
+hoverIcon5.addEventListener('mouseenter', () => {
+  hoverIcon5.classList.add('fa-beat-fade','scale','beat-fade');
+});
+hoverIcon5.addEventListener('mouseleave', () => {
+  hoverIcon5.classList.remove('fa-beat-fade','scale','beat-fade');
+});
+
+const hoverIcon6 = document.getElementById('results_icon');
+hoverIcon6.addEventListener('mouseenter', () => {
+  hoverIcon6.classList.add('scale');
+});
+hoverIcon6.addEventListener('mouseleave', () => {
+  hoverIcon6.classList.remove('scale');
+});
