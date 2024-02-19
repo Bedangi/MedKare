@@ -11,13 +11,14 @@
         <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     </head>
     <body>
-        <div class="container-fluid">
+        <div class="container-fluid wrap">
             <nav class="navbar navbar-expand-lg sticky">
                 <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="logo.png">MedKare</a>
-                <a class="navbar-brand" href="#">Features</a>
-                <a class="navbar-brand" href="#">Contact Us</a>
-                <div class="collapse navbar-collapse end" id="navbarSupportedContent">
+                <a class="navbar-brand" href="#medkare"><img src="logo.png">MedKare</a>
+                <a class="navbar-brand" href="#features">Features</a>
+                <a class="navbar-brand" href="#">Blog</a>
+                <a class="navbar-brand" href="#contact_us">Contact Us</a>
+                <div class=" navbar-collapse end" id="navbarSupportedContent">
                     <!-- <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" id="navbar-end" type="submit">Search</button>
@@ -69,106 +70,133 @@
                 </div>
                 </div>
             </nav>
-            <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example  p-3 rounded-2 trans" tabindex="0" > 
-                <div class="heading">
-                    <img class="bounce" src="logo.png" style="display: inline-block;">
-                    <h1 class="tagline" style="display: inline-block;">
-                        <div class="typing-container">
-                            <span id="sentence" class="sentence"></span>
-                            <span class="input-cursor"></span>
-                            <span id="feature-text"></span>
+            <a id="medkare">
+                <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example  p-3 rounded-2 trans" tabindex="0" > 
+                    <div class="heading">
+                        <img class="bounce" src="logo.png" style="display: inline-block;">
+                        <h1 class="tagline" style="display: inline-block;">
+                            <div class="typing-container">
+                                <span id="sentence" class="sentence"></span>
+                                <span class="input-cursor"></span>
+                                <span id="feature-text"></span>
+                            </div>
+                        </h1>
+                    </div>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="anxiety.png" class="card-img-top" alt="Anxiety Test">
+                            <div class="card-body">
+                            <p class="card-title">Anxiety Test</p>
+                            <p class="card-text">An anxiety test is a diagnostic tool used to assess an individual's level of anxiety through a series of questions or assessments, helping to identify symptoms and provide insight into potential anxiety disorders.</p>
+                            <a href="anxiety.html" class="btn btn-primary">Take The Test</a>
+                            </div>
                         </div>
-                    </h1>
+                        <div class="card">
+                            <img src="psychometric.jpg" class="card-img-top" alt="Psychometric Test">
+                            <div class="card-body">
+                            <p class="card-title">Psychometric Test</p>
+                            <p class="card-text">A psychometric test is a standardized assessment tool used to measure various psychological attributes, such as personality traits, cognitive abilities, or emotional intelligence, through structured questions or tasks.</p>
+                            <a href="psycho.html" class="btn btn-primary">Take The Test</a>
+                        </div>
+                        </div>
+                        <div class="card">
+                            <img src="personality.jpg" class="card-img-top" alt="Personality Test">
+                            <div class="card-body">
+                            <p class="card-title">Personality Test</p>
+                            <p class="card-text">A personality test is a psychological assessment tool designed to evaluate an individual's traits, behaviors, attitudes, and preferences, often categorized into various dimensions or personality traits, to provide insights into their psychological makeup and behavioral tendencies.</p>
+                            <a href="rorschach.html" class="btn btn-primary">Take The Test</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="card-container">
-                    <div class="card">
-                        <img src="anxiety.png" class="card-img-top" alt="Anxiety Test">
-                        <div class="card-body">
-                          <p class="card-title">Anxiety Test</p>
-                          <p class="card-text">An anxiety test is a diagnostic tool used to assess an individual's level of anxiety through a series of questions or assessments, helping to identify symptoms and provide insight into potential anxiety disorders.</p>
-                          <a href="anxiety.html" class="btn btn-primary">Take The Test</a>
+            </a>
+            <a id="features">
+                <div class="main-features">
+                    <div class="fheading">
+                        <h1 class="features">Main Features</h1>
+                        <p class="fpara">Provides accessible and informative tools, fostering self-awareness, 
+                            <br>early intervention, and destigmatization while promoting a 
+                            <br>proactive approach to mental well-being.
+                        </p>
+                    </div>
+                    <div class="features-grid-container">
+                        <div class="features-grid-item1">
+                            <i id="user_icon" class="fa-classic fa-solid fa-user-group fa-xl"></i>
+                            <h4>User-Friendly Interface</h3>
+                            <p>Intuitive and easy-to-navigate design.
+                                Clearly labeled sections for different types of tests.</p>
+                        </div>
+                        <div class="features-grid-item2">
+                            <i id="shapes_icon" class="fa-solid fa-shapes fa-xl"></i>
+                            <h4>Educational Content</h4>
+                            <p>Offers informative articles, blog posts, or videos to help users understand the significance of the tests and their results.</p>
+                        </div>
+                        <div class="features-grid-item3">
+                            <i id="secure_icon" class="fa-solid fa-file-shield fa-xl"></i>
+                            <h4>Secure and Confidential</h4>
+                            <p>Assures users of the confidentiality and security of their data.</p>
+                        </div>
+                        <div class="features-grid-item4">
+                            <i id="results_icon" class="fa-solid fa-square-poll-horizontal fa-xl"></i>
+                            <h4>Results Interpretation</h4>
+                            <p>Provides clear and understandable explanations of test results.
+                                Includes disclaimers that online tests are not a substitute for professional diagnosis and encourage users to consult with mental health professionals.</p>
+                        </div>
+                        <div class="features-grid-item5">
+                            <i id="community_support_icon" class="fa-solid fa-tty fa-2xl"></i>
+                            <h4>Community Support</h4>
+                            <p>Integrates forums and chat features for users to connect, share experiences, and offer support to one another.</p>
+                        </div>
+                        <div class="features-grid-item6">
+                            <i id="chatbot_icon" class="fa-brands fa-bots fa-2xl"></i>
+                            <h4>24/7 Chatbot</h4>
+                            <p>A 24/7 chatbot feature ensures constant accessibility, offering immediate support, information, and guidance, contributing to a continuous and responsive mental health assistance.</p>
                         </div>
                     </div>
-                    <div class="card">
-                        <img src="psychometric.jpg" class="card-img-top" alt="Psychometric Test">
-                        <div class="card-body">
-                        <p class="card-title">Psychometric Test</p>
-                        <p class="card-text">A psychometric test is a standardized assessment tool used to measure various psychological attributes, such as personality traits, cognitive abilities, or emotional intelligence, through structured questions or tasks.</p>
-                        <a href="psycho.html" class="btn btn-primary">Take The Test</a>
+                </div>
+            </a>
+            <div class="footer-grid-container">
+                <div class="footer-grid-item1">
+                    <div class="footer-heading">
+                        <img src="logo.png" alt="logo">
+                        <h4><b>MedKare</b></h4>
                     </div>
+                    <a href="#" class="social1">
+                        <i class="fa-brands fa-facebook fa-2xl" style="color: white;"></i>
+                    </a>
+                    <a href="#" class="social2">
+                        <i class="fa-brands fa-twitter fa-2xl" style="color: #1da1f2;"></i>
+                    </a>
+                    <a href="#" class="social3">
+                        <i class="fa-brands fa-instagram fa-2xl"  style="color: red;"></i>
+                    </a>
+                </div>
+                <div class="footer-grid-item2">
+                    <h4>Useful Links</h4>
+                    <div class="footer-links">
+                        <a href="#">Blog</a><br>
+                        <a href="#">About</a>
                     </div>
-                    <div class="card">
-                        <img src="personality.jpg" class="card-img-top" alt="Personality Test">
-                        <div class="card-body">
-                          <p class="card-title">Personality Test</p>
-                          <p class="card-text">A personality test is a psychological assessment tool designed to evaluate an individual's traits, behaviors, attitudes, and preferences, often categorized into various dimensions or personality traits, to provide insights into their psychological makeup and behavioral tendencies.</p>
-                          <a href="rorschach.html" class="btn btn-primary">Take The Test</a>
-                        </div>
+                </div>
+                <div class="footer-grid-item3">
+                    <h4>Connect with us</h4>
+                    <div class="footer-links">
+                        <a href="#">Phone</a><br>
+                        <a href="#">Mail</a><br>
+                        <a href="#">LinkedIn</a>
+                    </div>
+                </div>
+                <div class="footer-grid-item4">
+                    <h4>Legal Stuff</h4>
+                    <div class="footer-links">
+                        <a href="#">Terms and Conditions</a><br>
+                        <a href="#">Privacy</a><br>
+                        <a href="#">Copyrights</a>
                     </div>
                 </div>
             </div>
-            <div class="main-features">
-                <div class="fheading">
-                    <h1 class="features">Main Features</h1>
-                    <p class="fpara">Provides accessible and informative tools, fostering self-awareness, 
-                        <br>early intervention, and destigmatization while promoting a 
-                        <br>proactive approach to mental well-being.
-                    </p>
-                </div>
-                <div class="grid-container">
-                    <div class="grid-item1">
-                        <i class="fa-classic fa-solid fa-user-group fa-xl"></i>
-                        <h4>User-Friendly Interface</h3>
-                        <p>Intuitive and easy-to-navigate design.
-                            Clearly labeled sections for different types of tests.</p>
-                    </div>
-                    <div class="grid-item2">
-                        <i class="fa-solid fa-shapes fa-xl"></i>
-                        <h4>Educational Content</h4>
-                        <p>Offers informative articles, blog posts, or videos to help users understand the significance of the tests and their results.</p>
-                    </div>
-                    <div class="grid-item3">
-                        <i class="fa-solid fa-file-shield fa-xl"></i>
-                        <h4>Secure and Confidential</h4>
-                        <p>Assures users of the confidentiality and security of their data.</p>
-                    </div>
-                    <div class="grid-item4">
-                        <i class="fa-solid fa-square-poll-horizontal fa-xl"></i>
-                        <h4>Results Interpretation</h4>
-                        <p>Provides clear and understandable explanations of test results.
-                            Includes disclaimers that online tests are not a substitute for professional diagnosis and encourage users to consult with mental health professionals.</p>
-                    </div>
-                    <div class="grid-item5">
-                        <i class="fa-solid fa-tty fa-2xl"></i>
-                        <h4>Community Support</h4>
-                        <p>Integrates forums and chat features for users to connect, share experiences, and offer support to one another.</p>
-                    </div>
-                    <div class="grid-item6">
-                        <i class="fa-brands fa-bots fa-2xl"></i>
-                        <h4>24/7 Chatbot</h4>
-                        <p>A 24/7 chatbot feature ensures constant accessibility, offering immediate support, information, and guidance, contributing to a continuous and responsive mental health assistance.</p>
-                    </div>
-                </div>
-            </div>
-            
-            
-            <footer>
-                <div class="social-icons">
-                    <a href="#">
-                        <img src="insta.png" alt="insta account">
-                    </a>
-                    <a href="#">
-                        <img src="twitter.png" alt="insta account">
-                    </a>
-                    <a href="#">
-                        <img src="fb.png" alt="insta account">
-                    </a>
-                  
-                </div>
-            </footer>
             <canvas id="bubble">
             </canvas>
-            
         </div>
         <script href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
         <script type="text/javascript">
