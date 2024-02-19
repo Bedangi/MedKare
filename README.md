@@ -1,5 +1,5 @@
-# Medkare/n
-A. It is a mental health website which includes :
+# Medkare
+A. It is a mental health website which includes :/n
       i) Anxiety Test
       ii) Psychometric Test
       iii) Personality Test
